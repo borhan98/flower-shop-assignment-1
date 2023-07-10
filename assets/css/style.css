@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Lato:wght@100;300;400;700;900&display=swap');
+/*----------------------------------
+        Common Css Start
+------------------------------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.btn_common {
+    display: inline-block;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 20px 40px;
+}
+section {
+    margin-bottom: 128px;
+}
+.section_title {
+    text-align: center;
+}
+.section_title h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section_title p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0 48px;
+}
+/*----------------------------------
+        Common Css End
+------------------------------------*/
+/*----------------------------------
+        Header Section Start
+------------------------------------*/
+#header {
+    height: 90vh;
+    background-color: #f1c8d1;
+    margin-bottom: 178px;
+}
+.banner {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.banner .banner_img {
+    padding-top: 30px;
+}
+.banner .banner_img img{
+    height: 100%;
+}
+.banner_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.banner_text .banner_title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 700px;
+}
+.banner_text .banner_descrip {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 630px;
+    margin: 20px 0;
+}
+/*----------------------------------
+        Header Section End
+------------------------------------*/
+/*----------------------------------
+        Featured Section Start
+------------------------------------*/
+.featured_flower {
+    display: flex;
+    justify-content: space-between;
+}
+.featured_flower .flower_card {
+    text-align: center;
+}
+.flower_card .flower {
+    width: 350px;
+    height: 550px;
+    background-color: pink;
+    border-radius: 300px 300px 0 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.flower_card .flower_bg2 img {
+    margin-bottom: 50px;
+}
+.flower_card .flower_bg1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+.flower_card .flower_bg2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower_card .flower_bg3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+.flower_card a {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    display: inline-block;
+    margin-top: 32px;
+}
+/*----------------------------------
+        Featured Section End
+------------------------------------*/
+/*----------------------------------
+        Common Css End
+------------------------------------*/
+/*----------------------------------
+        Common Css End
+------------------------------------*/
+/*----------------------------------
+        Common Css End
+------------------------------------*/
+/*----------------------------------
+        Common Css End
+------------------------------------*/
