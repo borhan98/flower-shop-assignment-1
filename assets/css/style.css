@@ -15,11 +15,18 @@
     display: inline-block;
     border-radius: 8px;
     background: #E55473;
+    border: 1px solid #E55473;
     color: #FFF;
     font-size: 20px;
     text-decoration: none;
     font-weight: 700;
     padding: 20px 40px;
+    transition: 0.4s;
+}
+.btn_common:hover {
+    border: 1px solid #E55473;
+    background: transparent;
+    color: #E55473;
 }
 section {
     margin-bottom: 128px;
@@ -47,7 +54,7 @@ section {
 ------------------------------------*/
 #header {
     height: 90vh;
-    background-color: #f1c8d1;
+    background-color: rgba(229, 84, 115, 0.102);
     margin-bottom: 178px;
 }
 .banner {
@@ -128,14 +135,119 @@ section {
         Featured Section End
 ------------------------------------*/
 /*----------------------------------
-        Common Css End
+        Services Section Start
+------------------------------------*/
+.all_service {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    padding: 86px 0;
+}
+.all_service .single_service {
+    text-align: center;
+}
+.single_service .service_icon img {
+    width: 88px;
+    height: 88px;
+}
+.single_service p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 24px;
+}
+/*----------------------------------
+        Services Section End
 ------------------------------------*/
 /*----------------------------------
-        Common Css End
+        Hot Deal Section Start
+------------------------------------*/
+#hot_deal {
+    background-color: rgba(229, 84, 115, 0.051);
+}
+.hot_deal_flower {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hot_deal_flower .section_title .off {
+    color: #E55473;
+}
+.hot_deal_flower .hot_deal_roses img {
+    width: 320px;
+}
+/*----------------------------------
+        Hot Deal Section End
 ------------------------------------*/
 /*----------------------------------
-        Common Css End
+        Instagram Section Start
+------------------------------------*/
+.instagram_flowers {
+    display: flex;
+    justify-content: space-between;
+}
+.instagram_flowers figure img {
+    max-width: 275px;
+}
+/*----------------------------------
+        Instagram Section End
 ------------------------------------*/
 /*----------------------------------
-        Common Css End
+        Latest Deal Section Start
+------------------------------------*/
+#latest_deal .latest_deal_bg {
+    padding: 120px 0;
+    background: url('../images/subscribe_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#latest_deal form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#latest_deal form input {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    width: 600px;
+    padding: 23px;
+    margin-right: 20px;
+}
+#latest_deal form input:focus {
+    outline: none;
+}
+/*----------------------------------
+        Latest Deal Section End
+------------------------------------*/
+/*----------------------------------
+        Footer Section Start
+------------------------------------*/
+#footer {
+    background: #111010;
+    padding: 128px;
+}
+#footer > .section_title h3 {
+    color: #FFFFFF;
+}
+#footer > .section_title p {
+    color: rgba(255, 255, 255, 0.9);
+}
+#footer .flower {
+    color: #E55473;
+}
+#footer small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+/*----------------------------------
+        Footer Section End
 ------------------------------------*/
