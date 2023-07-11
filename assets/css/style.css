@@ -196,7 +196,7 @@ section {
         Instagram Section End
 ------------------------------------*/
 /*----------------------------------
-        Top Selling Section Start
+        Most Popular Section Start
 ------------------------------------*/
 #most_popular_flower {
     background-color: rgba(229, 84, 115, 0.102);
@@ -211,7 +211,7 @@ section {
 }
 .most_popular .flower_item {
     text-align: center;
-    border:1px solid rgba(229, 82, 114, 0.2);
+    border: 1px solid rgba(229, 82, 114, 0.2);
     padding: 0 0 20px 0;
 
 }
@@ -237,7 +237,7 @@ section {
     min-height: 325px;
 }
 /*----------------------------------
-        Top Selling Section End
+        Most Popular Section End
 ------------------------------------*/
 /*----------------------------------
         Latest Deal Section Start
