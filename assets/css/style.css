@@ -24,7 +24,7 @@
     transition: 0.4s;
 }
 .btn_common:hover {
-    border: 1px solid #E55473;
+    border: 1px solid rgba(229, 82, 114, 0.4);
     background: transparent;
     color: #E55473;
 }
@@ -194,6 +194,50 @@ section {
 }
 /*----------------------------------
         Instagram Section End
+------------------------------------*/
+/*----------------------------------
+        Top Selling Section Start
+------------------------------------*/
+#most_popular_flower {
+    background-color: rgba(229, 84, 115, 0.102);
+    padding: 100px 0;
+}
+#most_popular_flower .most {
+    color: #E55473;
+}
+.most_popular {
+    display: flex;
+    justify-content: space-between;
+}
+.most_popular .flower_item {
+    text-align: center;
+    border:1px solid rgba(229, 82, 114, 0.2);
+    padding: 0 0 20px 0;
+
+}
+.most_popular .flower_item a {
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    padding: 15px 0;
+    background: #FFFFFF;
+    border: 1px solid rgba(229, 82, 114, 0.2);
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #E55473;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.most_popular .flower_item a:hover {
+    letter-spacing: 2px;
+}
+.flower_item figure img {
+    max-width: 275px;
+    min-height: 325px;
+}
+/*----------------------------------
+        Top Selling Section End
 ------------------------------------*/
 /*----------------------------------
         Latest Deal Section Start
